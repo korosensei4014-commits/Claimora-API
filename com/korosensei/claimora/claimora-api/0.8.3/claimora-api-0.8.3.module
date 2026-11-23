@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.korosensei.claimora",
+    "module": "claimora-api",
+    "version": "0.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "claimora-api-0.8.3.jar",
+          "url": "claimora-api-0.8.3.jar",
+          "size": 10745,
+          "sha512": "fdafd343d7164affe8f49abbac4efbdc688293bd3030ee2151f067facc0c97509e1773ae0cb879c510aab72fb5a9a943c2dc0956b9d9749f8cfc1c09a536f055",
+          "sha256": "34eacf16f298578c12aae2bfffef9c2b915520165478a43b6f0b9ed6263a28df",
+          "sha1": "d9cb1a468d967c04b261c102b966d80b785de333",
+          "md5": "c18236306d2c52ad1ca604a03bb72fd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "claimora-api-0.8.3.jar",
+          "url": "claimora-api-0.8.3.jar",
+          "size": 10745,
+          "sha512": "fdafd343d7164affe8f49abbac4efbdc688293bd3030ee2151f067facc0c97509e1773ae0cb879c510aab72fb5a9a943c2dc0956b9d9749f8cfc1c09a536f055",
+          "sha256": "34eacf16f298578c12aae2bfffef9c2b915520165478a43b6f0b9ed6263a28df",
+          "sha1": "d9cb1a468d967c04b261c102b966d80b785de333",
+          "md5": "c18236306d2c52ad1ca604a03bb72fd0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "claimora-api-0.8.3-sources.jar",
+          "url": "claimora-api-0.8.3-sources.jar",
+          "size": 7678,
+          "sha512": "ba1a3081c926e795d5a10369a1352b2dc50ebb7ccb2a2e6901156e7bb386ed206cc26a0e86b3f06b94715ac4728aa2483fe90f428bbc377bfb7d92d327164886",
+          "sha256": "b920c4116161658d079245a93a8586311df8ba480c47767cc8638fc35cea21ca",
+          "sha1": "05498db2b5d640ba13242f577890f0fb93f29a08",
+          "md5": "5d4e7eb43ec1ccc64f5b47f5a251d1aa"
+        }
+      ]
+    }
+  ]
+}
