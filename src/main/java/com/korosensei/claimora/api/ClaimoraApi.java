@@ -42,6 +42,16 @@ public interface ClaimoraApi {
     /** Available claim blocks of an online player, or empty if they are offline. */
     Optional<Long> availableBlocks(UUID player);
 
+    /**
+     * Whether the player is banned from the claim with this id (a subclaim answers for its main claim).
+     * False for unknown ids.
+     *
+     * @since 0.8.6
+     */
+    default boolean isBanned(long claimId, UUID player) {
+        return false;
+    }
+
     /** The registered API, or null if Claimora isn't enabled. Not cached, so nothing outlives Claimora. */
     static @Nullable ClaimoraApi get() {
         RegisteredServiceProvider<ClaimoraApi> rsp = Bukkit.getServicesManager().getRegistration(ClaimoraApi.class);

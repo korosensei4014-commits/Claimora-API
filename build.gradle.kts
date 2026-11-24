@@ -5,7 +5,7 @@ plugins {
 
 group = "com.korosensei.claimora"
 // Matches the Claimora version this API belongs to. Bump it to publish a new release.
-version = "0.8.3"
+version = "0.8.6"
 
 repositories {
     mavenCentral()

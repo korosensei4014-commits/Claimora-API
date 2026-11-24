@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.korosensei.claimora:claimora-api:0.8.3")
+    compileOnly("com.korosensei.claimora:claimora-api:0.8.6")
 }
 ```
 
@@ -29,7 +29,7 @@ Maven:
 <dependency>
   <groupId>com.korosensei.claimora</groupId>
   <artifactId>claimora-api</artifactId>
-  <version>0.8.3</version>
+  <version>0.8.6</version>
   <scope>provided</scope>
 </dependency>
 ```
@@ -60,5 +60,5 @@ without it.
 | Trust levels | `TrustLevel` (GUEST, CONTAINERS, BUILD, MANAGER) |
 | Events | `ClaimCreateEvent`, `ClaimDeleteEvent`, `ClaimResizeEvent`, `ClaimTransferEvent`, `ClaimTrustEvent`, `ClaimTeleportEvent` |
 
-Versions match Claimora's: API 0.8.3 belongs to Claimora 0.8.3. Changes stay backwards compatible within
+Versions match Claimora's: API 0.8.6 belongs to Claimora 0.8.6. Changes stay backwards compatible within
 the same minor version.
